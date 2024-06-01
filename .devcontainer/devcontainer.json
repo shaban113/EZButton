@@ -1,0 +1,27 @@
+{
+    "name": "Vue.js Webapp Codespace",
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+    "remoteUser": "codespace",
+    "overrideCommand": false,
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "octref.vetur"
+            ]
+        },
+        "codespaces": {
+            "openFiles": [
+                "codespace.md"
+            ]
+        }
+    },
+    "postCreateCommand": [
+        "npm install -g @vue/cli",
+        "echo '# Writing code upon codespace creation!' >> codespace.md"
+    ],
+    "runArgs": [
+        "--network",
+        "host"
+    ]
+}
