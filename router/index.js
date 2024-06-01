@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Dashboard from '../views/Dashboard.vue'
+import Dashboard from '../views/dashboard.vue'
 import BalanceSheet from '../views/BalanceSheet.vue'
 import ProfitLoss from '../views/ProfitLoss.vue'
 import Rolling12 from '../views/Rolling12.vue'
